@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this protocol or specification, please cite it as below."
+title: "Publishing OS: A Deterministic Protocol for Epistemic Integrity and Multi-Target Knowledge Compilation in the Generative AI Era"
+authors:
+  - family-names: "Marutani"
+    given-names: "Yuji"
+    affiliation: "O'Valley Salon of Meta Design"
+version: "1.0.0"
+doi: "10.5281/zenodo.21706668"
+date-released: "2026-07-31"
+url: "https://doi.org/10.5281/zenodo.21706668"
+keywords:
+  - "Publishing OS"
+  - "Epistemic Substrate"
+  - "Safety Kernel"
+  - "Multi-Compile Engine"
+  - "Generative AI"

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Epistemic Substrate Master Schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "concept_id",
+          "invariant",
+          "definition",
+          "dependency",
+          "constraints",
+          "examples_minimal",
+          "tags"
+        ],
+        "properties": {
+          "concept_id": {
+            "type": "string"
+          },
+          "invariant": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string"
+          },
+          "dependency": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "constraints": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "examples_minimal": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "version",
+    "nodes"
+  ]
+}
